@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projectElectricity" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projectElectricity" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DSFML_DYNAMIC" />
+					<Add directory="C:/Program Files (x86)/SFML/bin" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-graphics-d" />
+					<Add option="-lsfml-window-d" />
+					<Add option="-lsfml-system-d" />
+					<Add directory="C:/Program Files (x86)/SFML/include" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projectElectricity" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-DSFML_DYNAMIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic" />
+			<Add option="-w" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/SFML/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Program Files (x86)/SFML/lib" />
+		</Linker>
+		<Unit filename="basicBloc.cpp" />
+		<Unit filename="basicBloc.hpp" />
+		<Unit filename="basicEnemy.cpp" />
+		<Unit filename="basicEnemy.hpp" />
+		<Unit filename="bossEnemy.cpp" />
+		<Unit filename="bossEnemy.hpp" />
+		<Unit filename="changeMapEvent.cpp" />
+		<Unit filename="changeMapEvent.hpp" />
+		<Unit filename="character.cpp" />
+		<Unit filename="character.hpp" />
+		<Unit filename="dialogueState.cpp" />
+		<Unit filename="dialogueState.hpp" />
+		<Unit filename="editLevelState.cpp" />
+		<Unit filename="editLevelState.hpp" />
+		<Unit filename="endGameState.cpp" />
+		<Unit filename="endGameState.hpp" />
+		<Unit filename="endLevelState.cpp" />
+		<Unit filename="endLevelState.hpp" />
+		<Unit filename="endLifeState.cpp" />
+		<Unit filename="endLifeState.hpp" />
+		<Unit filename="event.cpp" />
+		<Unit filename="event.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="gamePlayed.cpp" />
+		<Unit filename="gamePlayed.hpp" />
+		<Unit filename="gameState.hpp" />
+		<Unit filename="gameStateStack.cpp" />
+		<Unit filename="gameStateStack.hpp" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.hpp" />
+		<Unit filename="item.cpp" />
+		<Unit filename="item.hpp" />
+		<Unit filename="level.cpp" />
+		<Unit filename="level.hpp" />
+		<Unit filename="libMenuSf.cpp" />
+		<Unit filename="libMenuSf.hpp" />
+		<Unit filename="light.cpp" />
+		<Unit filename="light.hpp" />
+		<Unit filename="lightManager.cpp" />
+		<Unit filename="lightManager.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainMenuState.cpp" />
+		<Unit filename="mainMenuState.hpp" />
+		<Unit filename="messageEvent.cpp" />
+		<Unit filename="messageEvent.hpp" />
+		<Unit filename="particle.cpp" />
+		<Unit filename="particle.hpp" />
+		<Unit filename="particleMotor.cpp" />
+		<Unit filename="particleMotor.hpp" />
+		<Unit filename="pauseState.cpp" />
+		<Unit filename="pauseState.hpp" />
+		<Unit filename="playState.cpp" />
+		<Unit filename="playState.hpp" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.hpp" />
+		<Unit filename="spawnEnemyEvent.cpp" />
+		<Unit filename="spawnEnemyEvent.hpp" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.hpp" />
+		<Unit filename="storeState.cpp" />
+		<Unit filename="storeState.hpp" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="timer.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

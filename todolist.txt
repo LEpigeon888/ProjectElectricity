@@ -1,0 +1,6 @@
+-gérer les bloc custom
+-gérer les ennemis custom
+-faire quelques vrais niveaux
+-ajouter une attaque spécial lorsqu'une jauge sera remplie
+-niveaux spéciaux ? (vision réduite, etc etc)
+-améliorer encore l'éditeur de niveaux
